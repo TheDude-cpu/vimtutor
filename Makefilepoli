@@ -1,0 +1,8 @@
+main: palindrom.cpp
+	g++ palindrom.cpp -o palindrom -Wall -Wextra -Werror -Wpedantic -O2 --std=c++17 -lpthread -lm
+
+debug:
+	g++ palindrom.cpp -o -palindrom -Wextra -Werror -Wpedantic -g --std=c++17 -lpthread -lm
+
+clean: 	
+	rm palindrom
