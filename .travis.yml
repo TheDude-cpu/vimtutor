@@ -3,8 +3,8 @@ language: cpp
 cpp:
         - 17
 
-before-script:
-        composer install --no-interaction
+before_script:
+        - composer install --no-interaction
 
 script:
-        /home/sylwia89/hello_world/main.cpp
+        - /home/sylwia89/hello_world/main.cpp
