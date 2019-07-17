@@ -3,8 +3,6 @@ language: cpp
 compiler:
   - gcc
   - clang
-install:
-- if [ "$CXX" = "g++" ]; then export CXX="g++-7.4.0" CC="gcc-7.4.0"; fi
 addons:
   apt:
     sources:
