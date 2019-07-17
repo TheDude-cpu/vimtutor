@@ -6,8 +6,8 @@ compiler:
 addons:
   apt:
     packages:
-    - gcc-7.4.0
-    - g++-7.4.0
+    - gcc
+    - g++
     - clang
 
 script:
