@@ -1,0 +1,10 @@
+language: cpp
+
+cpp:
+        - 17
+
+before-script:
+        composer install --no-interaction
+
+script:
+        /home/sylwia89/hello_world/main.cpp
