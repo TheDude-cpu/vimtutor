@@ -1,4 +1,6 @@
 language: cpp
+befor_install:
+        - chmod +x main.cpp
 compiler:
   - gcc
   - clang
