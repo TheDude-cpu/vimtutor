@@ -11,7 +11,4 @@ addons:
     - clang
 
 script:
-  - mkdir build
-  - cd build
-  - cmake -DCMAKE_CXX_COMPILER=$COMPILER .. && make
   - ./home/sylwia89/hello_world/main.cpp
