@@ -11,4 +11,4 @@ addons:
     - clang
 
 script:
-  - ./home/sylwia89/hello_world/main.cpp
+  - ./main.cpp
